@@ -6,7 +6,7 @@
 		protected function Load()
 		{ }
 
-		private function Log(WhatsApp\Message $Message)
+		private function Log(WhatsApp\Message $Message) // Needed? Meeemory xD
 		{
 			return $Message->Log();
 		}
